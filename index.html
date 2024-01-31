@@ -2,11 +2,147 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rozvrh hodin</title>
+    <style>
+
+table, th, td {
+  border:1px solid black;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+td {
+   width: auto;
+}
+
+.prazdniny {
+    text-align: center;
+    background-color: aqua;
+}
+
+.supl {
+    background-color: rgb(218, 105, 71);
+}
+
+.dny {
+    background-color: rgb(151, 151, 144);
+}
+</style>
 </head>
+
 <body>
-    
+
+    <h2>Rozvrh hodin třídy S1A</h2>
+
+    <table>
+        <colgroup class="prvni">
+            <col> 
+            </colgroup>
+            <col span="">
+        <thead>
+            <tr>
+                <th></th>
+                <th>0</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="dny" rowspan="2">PO</td>
+                <td rowspan="2"></td>
+                <td rowspan="2">ZSV</td>
+                <td rowspan="2">TED</td>
+                <td rowspan="2">MEC</td>
+                <td>ANJ</td>
+                
+                <td rowspan="2">MAT</td>
+                <td rowspan="2">CJL</td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+            </tr>
+
+            <tr>
+                <td class="supl">NEJ</td>
+                
+            </tr>
+            <tr>
+                <td class="dny" rowspan="3">ÚT</td>
+                <td>PRA</td>
+                <td>PRA</td>
+                <td>PRA</td>
+                <td rowspan="3">MAT</td>
+                <td rowspan="3">MEC</td>
+                <td rowspan="3">FYZ</td>
+                <td rowspan="3"></td>
+                <td rowspan="3">TED</td>
+                <td rowspan="3"></td>
+                <td rowspan="3">ㅤㅤ</td>
+            </tr>
+            <tr>
+                <td>PRA</td>
+                <td>PRA</td>
+                <td>PRA</td>
+            </tr>
+            <tr>
+                <td>PRA</td>
+                <td>PRA</td>
+                <td>PRA</td>
+            </tr>
+            <tr>
+                <td class="dny" rowspan="2">ST</td>
+                <td rowspan="2"></td>
+                <td rowspan="2">CJL</td>
+                <td rowspan="2">MAT</td>
+                <td rowspan="2">TEV</td>
+                <td rowspan="2">TEV</td>
+                <td>NEJ</td>
+                <td rowspan="2">TED</td>
+                <td rowspan="2"></td>
+                <td class="supl" rowspan="2">CHE</td>
+                <td class="supl" rowspan="2"></td>
+            </tr>
+            <tr>
+                <td>TED</td>
+            </tr>
+            <tr>
+                <td class="dny" rowspan="2">ČT</td>
+                <td rowspan="2"></td>
+                <td rowspan="2">CJL</td>
+                <td class="supl" rowspan="2">ZSV</td>
+                <td class="supl" rowspan="2"></td>
+                <td >ANJ</td>
+                <td rowspan="2"></td>
+                <td rowspan="2">MAT</td>
+                <td>IKT</td>
+                <td>IKT</td>
+                <td rowspan="2"></td>
+            </tr>
+            <tr>
+                <td>NEJ</td>
+                <td>IKT</td>
+                <td>IKT</td>
+            </tr>
+            <tr>
+                <td class="dny">PÁ</td>
+                <TD class="prazdniny" colspan="10">POLOLETNÍ PRÁZDNINY</TD>
+            
+            </tr>
+            
+
+        </tbody>
+    </table>
+
 </body>
 </html>
